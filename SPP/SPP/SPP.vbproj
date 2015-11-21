@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{32E0417C-0BE4-414E-B69B-F00578509F71}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>SPP</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SPP.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SPP.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="akaun pengguna.Designer.vb">
+      <DependentUpon>akaun pengguna.vb</DependentUpon>
+    </Compile>
+    <Compile Include="akaun pengguna.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aras Asrama Lelaki.Designer.vb">
+      <DependentUpon>Aras Asrama Lelaki.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Aras Asrama Lelaki.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aras Asrama Perempuan.Designer.vb">
+      <DependentUpon>Aras Asrama Perempuan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Aras Asrama Perempuan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Asrama Lelaki Aras Dua.Designer.vb">
+      <DependentUpon>Asrama Lelaki Aras Dua.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Asrama Lelaki Aras Dua.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Asrama Lelaki Aras Empat.Designer.vb">
+      <DependentUpon>Asrama Lelaki Aras Empat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Asrama Lelaki Aras Empat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Asrama Lelaki Aras Lima.Designer.vb">
+      <DependentUpon>Asrama Lelaki Aras Lima.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Asrama Lelaki Aras Lima.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Asrama Lelaki Aras Satu.Designer.vb">
+      <DependentUpon>Asrama Lelaki Aras Satu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Asrama Lelaki Aras Satu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Asrama Lelaki Aras Tiga.Designer.vb">
+      <DependentUpon>Asrama Lelaki Aras Tiga.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Asrama Lelaki Aras Tiga.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Asrama Perempuan Aras Dua.Designer.vb">
+      <DependentUpon>Asrama Perempuan Aras Dua.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Asrama Perempuan Aras Dua.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Asrama Perempuan Aras Satu.Designer.vb">
+      <DependentUpon>Asrama Perempuan Aras Satu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Asrama Perempuan Aras Satu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Asrama Perempuan Aras Tiga.Designer.vb">
+      <DependentUpon>Asrama Perempuan Aras Tiga.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Asrama Perempuan Aras Tiga.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="asramaDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>asramaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Halaman Akaun Pengguna.Designer.vb">
+      <DependentUpon>Halaman Akaun Pengguna.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Halaman Akaun Pengguna.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Halaman Daftar Baru.Designer.vb">
+      <DependentUpon>Halaman Daftar Baru.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Halaman Daftar Baru.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Halaman Penyelia.Designer.vb">
+      <DependentUpon>Halaman Penyelia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Halaman Penyelia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Panduan Pengguna.Designer.vb">
+      <DependentUpon>Panduan Pengguna.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panduan Pengguna.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Paparan Data Bagi Pelajar.Designer.vb">
+      <DependentUpon>Paparan Data Bagi Pelajar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Paparan Data Bagi Pelajar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Paparan Data Pelajar.Designer.vb">
+      <DependentUpon>Paparan Data Pelajar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Paparan Data Pelajar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="penetapanbilik.Designer.vb">
+      <DependentUpon>penetapanbilik.vb</DependentUpon>
+    </Compile>
+    <Compile Include="penetapanbilik.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="akaun pengguna.resx">
+      <DependentUpon>akaun pengguna.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aras Asrama Lelaki.resx">
+      <DependentUpon>Aras Asrama Lelaki.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aras Asrama Perempuan.resx">
+      <DependentUpon>Aras Asrama Perempuan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Asrama Lelaki Aras Dua.resx">
+      <DependentUpon>Asrama Lelaki Aras Dua.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Asrama Lelaki Aras Empat.resx">
+      <DependentUpon>Asrama Lelaki Aras Empat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Asrama Lelaki Aras Lima.resx">
+      <DependentUpon>Asrama Lelaki Aras Lima.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Asrama Lelaki Aras Satu.resx">
+      <DependentUpon>Asrama Lelaki Aras Satu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Asrama Lelaki Aras Tiga.resx">
+      <DependentUpon>Asrama Lelaki Aras Tiga.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Asrama Perempuan Aras Dua.resx">
+      <DependentUpon>Asrama Perempuan Aras Dua.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Asrama Perempuan Aras Satu.resx">
+      <DependentUpon>Asrama Perempuan Aras Satu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Asrama Perempuan Aras Tiga.resx">
+      <DependentUpon>Asrama Perempuan Aras Tiga.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halaman Akaun Pengguna.resx">
+      <DependentUpon>Halaman Akaun Pengguna.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halaman Daftar Baru.resx">
+      <DependentUpon>Halaman Daftar Baru.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halaman Penyelia.resx">
+      <DependentUpon>Halaman Penyelia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panduan Pengguna.resx">
+      <DependentUpon>Panduan Pengguna.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Paparan Data Bagi Pelajar.resx">
+      <DependentUpon>Paparan Data Bagi Pelajar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Paparan Data Pelajar.resx">
+      <DependentUpon>Paparan Data Pelajar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="penetapanbilik.resx">
+      <DependentUpon>penetapanbilik.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="asramaDataSet.xsc">
+      <DependentUpon>asramaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="asramaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>asramaDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="asramaDataSet.xss">
+      <DependentUpon>asramaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="asrama.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
